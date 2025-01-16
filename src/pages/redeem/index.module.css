@@ -1,0 +1,71 @@
+
+.container {
+  position: absolute;
+  top: 64px;
+  bottom: 50px;
+  left: 10px;
+  right: 10px;
+  overflow-y: scroll;
+}
+.action{
+  width: 50px;
+}
+.reward{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 10px 20px;
+  padding: 30px 30px;
+  box-shadow: 0px 0px 10px 0px #000000;
+  border-radius: 8px;
+}
+.reward_show{
+  width: 60%;
+  text-align: center;
+}
+.marketTokenInfo {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+
+  .list {
+    overflow: auto;
+  }
+}
+
+.title {
+  font-weight: 300;
+  font-size: 15px;
+  color: rgba(255,255,255,0.5);
+}
+
+.value {
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.sub_value {
+  font-size: 14px;
+  color: rgba(255,255,255,0.5);
+}
+
+.listItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 88rpx;
+  width: 100%;
+  padding: 0 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  box-sizing: border-box;
+  cursor: pointer;
+}

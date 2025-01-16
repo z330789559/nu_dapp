@@ -1,0 +1,26 @@
+
+.container {
+  margin-top: 64px;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 15px;
+  color: rgba(255,255,255,0.7);
+}
+
+.value {
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.value2 {
+  font-weight: bold;
+  font-size: 16px;
+}
